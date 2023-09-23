@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class FalconFlix {
-	
+
 	char seloQualidade;
 	boolean disponível;
 	
@@ -32,11 +32,8 @@ public class FalconFlix {
         System.out.println("Qual o valor de bilheteria arrecadado?");
         double bilheteria = sc1.nextDouble();
         
-        System.out.println("Qual Selo de qualidade você dá a este Filme?(S,A,B,C,D, ou E)" );
-        char seloQualidade = sc1.nextLine().charAt(0);
-        
-        System.out.println("Quais os Atores que participam do filme?");
-        String atores = sc1.nextLine();
+        System.out.println("Qual Selo de qualidade você dá a este Filme?" );
+        char seloQualidade =
         
         System.out.println("Os dados do filme são:");
         System.out.println("Nome: " + nome);
@@ -48,7 +45,7 @@ public class FalconFlix {
         System.out.println("Ano de Lançamento: " + aLanc);
         System.out.println("Bilheteria:" + bilheteria);
         System.out.println("Selo de Qualidade é " + seloQualidade);
-        System.out.println("Os atores do filme são " + atores);
+        seloQualidade = sc.nextLine().charAt(0);
 
         sc1.close();
     }
