@@ -39,7 +39,7 @@ public class Filme {
         System.out.println("Qual o valor de bilheteria arrecadado?");
         this.bilheteria = sc.nextDouble();
 
-        sc.nextLine(); // Consumir a nova linha deixada após o nextDouble
+        sc.nextLine();
 
         System.out.println("Qual Selo de qualidade você dá a este Filme? (S, A, B, C, D ou E)");
         this.seloQualidade = sc.nextLine().charAt(0);
