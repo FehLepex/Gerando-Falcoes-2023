@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\User\Documents\GitHub\Gerando-Falcoes-2023\.metadata\.plugins\org.eclipse.jdt.core
-4149595702.index
-1865797976.index
-3989851870.index
