@@ -47,6 +47,7 @@ public class Filme {
         System.out.println("Quais os Atores que participam do filme?");
         this.atores = sc.nextLine();
 
+        System.out.println("Programa terminado");
         sc.close();
     }
 
